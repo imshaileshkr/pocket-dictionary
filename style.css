@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --webkit-flow-smoothing:antialiased ;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    min-height: 100vh;
+}
+
+.container{
+    /* width: 1152px; */
+    width: auto;
+    max-width: 90%;  
+    margin: 0 auto;
+}
+nav{
+    background: #553C9A;
+    color: #fff;
+    padding: 1rem 0;
+}
+section.input{
+    padding-top: 100px;
+}
+h2{
+    text-align: center;
+    font-size: 36pxrem
+
+}
+.form__wrap{
+    display: grid;
+    justify-content: center;
+}
+
+.input__wrap{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+input{
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    min-width: 400px;
+    outline: none;
+}
+button{
+    background: #553C9A; 
+    color: #fff;
+    height: 100%;
+    font-size: 16px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+section.data{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.load__anime{
+   display: none; 
+}
+
+
+.data p{
+    width: auto;
+    font-size: 20px;
+    color: #2d3748;
+    line-height: 1.6;
+}
+.suggested{
+    background: #8794f4;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.audio{
+    margin-top:20px ;
+}
+
+
+
+@media(max-width:569px){
+    .button{
+        margin-top: 15px;
+        padding: 3px;
+        
+    }
+    .input__wrap{
+        display: inline-grid;
+        grid-template-columns: auto;
+        width: 100%;
+    }
+    .form__wrap{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .container{
+        width: auto;
+    }
+    .nav h1{
+        text-align: center;
+    }
+
+}

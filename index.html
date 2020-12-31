@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <!-- Navbar -->
+    <nav>
+        <div class=" nav container">
+            <h1><i class="fas fa-book-reader"></i> Dictionary</h1>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    
+     <!-- Main Contain -->
+    <section class="input">
+        <h2>Find any any exist in the World! </h2>
+        <div class="form__wrap">
+            <div class="input__wrap">
+                <input id="input" type="text" placeholder="Type your word">
+                <button class="button" id="search"><i class="fas fa-arrow-alt-circle-right"></i> Search</button>
+            </div>
+        </div>
+    </section>
+    <!-- End Main Contain -->
+    
+    <section class="data">
+        <span><i class="fas fa-spinner fa-pulse load__anime"></i></span>
+        <p class="definition"></p>
+        <div class="audio"></div>
+        <div class="not__found"></div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
