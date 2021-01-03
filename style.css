@@ -38,7 +38,7 @@ h2{
 }
 
 .input__wrap{
-    display: inline-grid;
+    display: grid;
     grid-template-columns: auto auto;
     align-items: center;
     border: 1px solid #ddd;
@@ -48,7 +48,7 @@ input{
     border: none;
     padding: 10px;
     font-size: 16px;
-    min-width: 400px;
+    min-width: 300px;
     outline: none;
 }
 button{
@@ -94,8 +94,7 @@ section.data{
 @media(max-width:569px){
     .button{
         margin-top: 15px;
-        padding: 3px;
-        
+        padding: 3px;       
     }
     .input__wrap{
         display: inline-grid;
@@ -106,11 +105,11 @@ section.data{
         margin-left: 10px;
         margin-right: 10px;
     }
-    .container{
-        width: auto;
-    }
     .nav h1{
         text-align: center;
     }
-
+    nav{
+        margin-right: -30px;
+    }
 }
+
